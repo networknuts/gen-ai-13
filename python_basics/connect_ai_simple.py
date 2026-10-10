@@ -3,10 +3,10 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv("MY_OPENAI_API_KEY"))
+client = OpenAI()
 
 response = client.responses.create(
     model="gpt-6-luna",
-    input="what is the recipe to make some black coffee?"
+    input="what is the weather today in new york?"
 )
 print(response.output_text)
