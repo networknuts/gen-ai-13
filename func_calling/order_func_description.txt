@@ -1,0 +1,7 @@
+This function provides order data for a user by using user_id as a required variable.
+This function will produce the following output:
+- item name
+- delivery date
+- status
+
+This function cannot run if the user_id is missing.
