@@ -2,4 +2,4 @@
 .env
 passwords.txt
 __pycache__
-.pdf
+*.pdf

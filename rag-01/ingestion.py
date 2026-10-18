@@ -6,7 +6,7 @@ from langchain_qdrant import QdrantVectorStore
 
 # ENVIRONMENT VARIABLES
 load_dotenv()
-PDF_FILE_PATH = "small_data.pdf"
+PDF_FILE_PATH = "large_ansible_doc.pdf"
 EMBEDDING_MODEL = "text-embedding-3-large"
 QDRANT_URL = "http://localhost:6333"
 QDRANT_COLLECTION_NAME = "example_collection"
